@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://yilbertpr87.github.io/sylux/sitemap.xml
+Sitemap: https://syluxllc.com/sitemap.xml
