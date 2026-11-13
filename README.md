@@ -4,6 +4,6 @@
 
 Live site: https://yilbertpr87.github.io/sylux/
 
-Contact: syluxllc@gmail.com · 954-880-5930 · 480 E 38TH ST, Hialeah, FL 33013
+Contact: syluxllc@gmail.com · 305-561-4177 · 480 E 38TH ST, Hialeah, FL 33013
 
 _This repository contains only the public marketing website. The SYLUX software itself is proprietary and is not published here._
