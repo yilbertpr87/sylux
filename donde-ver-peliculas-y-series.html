@@ -109,6 +109,12 @@
         letter-spacing: .04em;
         padding: 9px 16px;
       }
+      /* Botones en la cinta superior (corrección 22-nov-2026: esta cinta era la que
+         Yilbert señalaba desde el principio, no las bandas de más abajo). */
+      .ribbon .rb-btns { margin-top: 8px; display: flex; gap: 8px; justify-content: center; flex-wrap: wrap; }
+      .ribbon .rb-btn { display: inline-block; border-radius: 999px; padding: 7px 16px; font-weight: 800; font-size: .85rem; text-decoration: none; letter-spacing: 0; }
+      .ribbon .rb-web { background: #14100a; color: var(--gold); }
+      .ribbon .rb-wa { background: #1faa55; color: #fff; }
 
       /* ---------- Header / hero ---------- */
       header.hero {
@@ -622,7 +628,7 @@
     <div class="wm-bg" aria-hidden="true"><span>syluxllc.com</span><span class="wm-sub">Creamos tu software</span></div>
     <div class="wm-rail left" aria-hidden="true">syluxllc.com · Creamos tu software · syluxllc.com · Tu página web · syluxllc.com · Software de contabilidad · syluxllc.com · Apps para tu negocio ·</div>
     <div class="wm-rail right" aria-hidden="true">syluxllc.com · Creamos tu software · syluxllc.com · Tu página web · syluxllc.com · Software de contabilidad · syluxllc.com · Apps para tu negocio ·</div>
-    <div class="ribbon">SYLUXLLC.COM · Creamos tu página web, tu software de contabilidad y la aplicación de tu negocio</div>
+    <div class="ribbon"><span>SYLUXLLC.COM · Creamos tu página web, tu software de contabilidad y la aplicación de tu negocio</span><div class="rb-btns"><a class="rb-btn rb-web" href="https://syluxllc.com" target="_blank" rel="noopener">Visitar syluxllc.com →</a><a class="rb-btn rb-wa" href="https://wa.me/13055614177?text=Hola%20SYLUX%2C%20quiero%20informaci%C3%B3n%20para%20crear%20una%20p%C3%A1gina%20web%20o%20un%20software%20para%20mi%20negocio." target="_blank" rel="noopener">WhatsApp (305) 561-4177</a></div></div>
 
     <header class="hero">
       <div class="wrap">
