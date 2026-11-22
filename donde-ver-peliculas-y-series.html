@@ -205,6 +205,11 @@
       .connect-form button:disabled { opacity: .6; cursor: wait; }
       .connect-msg { margin: 8px 0 0; font-size: .9rem; font-weight: 600; color: var(--header-soft); }
       .connect-msg.err { color: #fca5a5; }
+      /* Conexión SIEMPRE oculta al público (orden de Yilbert, 22-nov-2026): la llave
+         va fija en el código y nadie —ni un visitante ni él por accidente— puede
+         desconectar la búsqueda en vivo desde la página. Los elementos quedan en
+         el DOM porque el script los referencia; solo se ocultan. */
+      .connect, .connect-form, .connect-msg { display: none !important; }
 
       /* ---------- TMDB key panel ---------- */
       .key-panel {
