@@ -573,6 +573,12 @@
       .promo-band .pb-main { font-family: "Oswald", sans-serif; font-size: clamp(1.3rem, 4vw, 1.7rem); font-weight: 700; text-transform: uppercase; letter-spacing: .04em; color: var(--gold); }
       .promo-band .pb-sub { color: var(--header-soft); font-size: .98rem; margin-top: 4px; }
       .promo-band .pb-go { color: var(--gold); font-weight: 800; white-space: nowrap; }
+      /* Botones dentro de las bandas SYLUX (orden de Yilbert, 22-nov-2026): enlace
+         visible a la web principal + contacto de WhatsApp, no solo la banda entera. */
+      .promo-band .pb-btns { margin-top: 12px; display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; }
+      .promo-band .pb-btn { display: inline-block; border-radius: 999px; padding: 10px 20px; font-weight: 800; font-size: .95rem; text-decoration: none; }
+      .promo-band .pb-web { background: var(--gold); color: #221806; }
+      .promo-band .pb-wa { background: #25d366; color: #06301c; }
       .promo-card { background: var(--header-bg); color: var(--header-ink); border: 2px solid var(--gold); border-radius: 16px; padding: 22px 18px; display: flex; flex-direction: column; gap: 12px; align-items: center; justify-content: center; text-align: center; box-shadow: var(--shadow); }
       .promo-card .pc-brand { font-family: "Oswald", sans-serif; font-weight: 700; font-size: 1.4rem; text-transform: uppercase; letter-spacing: .05em; color: var(--gold); }
       .promo-card p { margin: 0; color: var(--header-soft); font-size: .95rem; }
@@ -650,10 +656,14 @@
     </header>
 
     <main class="wrap">
-      <a class="promo-band" href="https://syluxllc.com" target="_blank" rel="noopener">
+      <div class="promo-band">
         <div class="pb-main">syluxllc.com</div>
-        <div class="pb-sub">Creamos tu software: tu página web, tu sistema de contabilidad y economía, y la aplicación de tu negocio. <span class="pb-go">Conócenos →</span></div>
-      </a>
+        <div class="pb-sub">Creamos tu software: tu página web, tu sistema de contabilidad y economía, y la aplicación de tu negocio.</div>
+        <div class="pb-btns">
+          <a class="pb-btn pb-web" href="https://syluxllc.com" target="_blank" rel="noopener">Visitar syluxllc.com →</a>
+          <a class="pb-btn pb-wa" href="https://wa.me/13055614177?text=Hola%20SYLUX%2C%20quiero%20informaci%C3%B3n%20para%20crear%20una%20p%C3%A1gina%20web%20o%20un%20software%20para%20mi%20negocio." target="_blank" rel="noopener">WhatsApp (305) 561-4177</a>
+        </div>
+      </div>
 
       <section id="catalogo" aria-labelledby="cat-title">
         <h2 id="cat-title">Catálogo inicial</h2>
@@ -671,10 +681,14 @@
         <div class="grid" id="grid"></div>
       </section>
 
-      <a class="promo-band" href="https://syluxllc.com" target="_blank" rel="noopener">
+      <div class="promo-band">
         <div class="pb-main">SYLUX LLC · syluxllc.com</div>
-        <div class="pb-sub">Creamos tu software: tu página web, tu software de contabilidad y economía, y las apps de tu negocio. <span class="pb-go">Entra a syluxllc.com →</span></div>
-      </a>
+        <div class="pb-sub">Creamos tu software: tu página web, tu software de contabilidad y economía, y las apps de tu negocio.</div>
+        <div class="pb-btns">
+          <a class="pb-btn pb-web" href="https://syluxllc.com" target="_blank" rel="noopener">Visitar syluxllc.com →</a>
+          <a class="pb-btn pb-wa" href="https://wa.me/13055614177?text=Hola%20SYLUX%2C%20quiero%20informaci%C3%B3n%20para%20crear%20una%20p%C3%A1gina%20web%20o%20un%20software%20para%20mi%20negocio." target="_blank" rel="noopener">WhatsApp (305) 561-4177</a>
+        </div>
+      </div>
 
       <a class="promo-band" href="https://wa.me/13055614177?text=Hola%20SYLUX%2C%20quiero%20informaci%C3%B3n%20para%20crear%20una%20p%C3%A1gina%20web%20o%20un%20software%20para%20mi%20negocio." target="_blank" rel="noopener">
         <div class="pb-main">¿Tienes un negocio? Esto te interesa</div>
