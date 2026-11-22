@@ -523,7 +523,13 @@
       .opt .dot { width: 12px; height: 12px; border-radius: 50%; flex: 0 0 auto; }
       .opt .price { margin-left: auto; color: var(--ink-soft); font-weight: 700; font-size: .92rem; }
       .opt .go { color: var(--accent); font-weight: 800; white-space: nowrap; }
-      .dlg-note { font-size: .9rem; color: var(--ink-soft); background: var(--bg-soft); border-radius: 10px; padding: 10px 12px; margin: 4px 0 0; }
+      .dlg-note { font-size: .9rem; color: var(--ink-soft); background: var(--bg-soft); border-radius: 10px; padding: 10px 12px; margin: 10px 0 0; }
+      /* Publicidad SYLUX dentro de la ficha de cada título (orden de Yilbert, 22-nov-2026):
+         se ve en CADA búsqueda al abrir un título. */
+      .dlg-promo { margin: 16px 0 0; border-radius: 12px; padding: 14px 16px; background: #070b16; color: #f3ead8; text-align: center; }
+      .dlg-promo .dp-brand { font-weight: 900; letter-spacing: .14em; font-size: .8rem; color: var(--gold); margin: 0 0 4px; }
+      .dlg-promo .dp-text { margin: 0 0 10px; font-size: .98rem; font-weight: 600; }
+      .dlg-promo .dp-btn { display: inline-block; background: var(--gold); color: #221806; font-weight: 800; border-radius: 999px; padding: 9px 20px; text-decoration: none; font-size: .95rem; }
       .dlg-empty { color: var(--ink-soft); background: var(--bg-soft); border-radius: 10px; padding: 12px 14px; margin: 0 0 14px; font-size: .95rem; }
       .dlg-close {
         position: absolute; top: 10px; right: 10px;
@@ -739,6 +745,11 @@
         <div class="dlg-body">
           <p class="syn" id="dlgSyn"></p>
           <div id="dlgGroups"></div>
+          <div class="dlg-promo">
+            <p class="dp-brand">SYLUX LLC</p>
+            <p class="dp-text">Creamos la página web y el software de tu negocio: webs, panel de control, redes sociales con IA y control de acceso.</p>
+            <a class="dp-btn" href="https://syluxllc.com" target="_blank" rel="noopener">Visitar syluxllc.com →</a>
+          </div>
           <p class="dlg-note" id="dlgNote">Cada botón abre, en una pestaña nueva, la página oficial de este título en el servicio elegido. Esta guía no reproduce ni aloja ningún video.</p>
         </div>
       </div>
