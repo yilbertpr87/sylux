@@ -852,7 +852,7 @@
 
       /* Llave de TMDB de SYLUX: se pega aquí una sola vez y la búsqueda en vivo
          queda activa para todos los visitantes, sin paneles ni formularios. */
-      var SYLUX_TMDB_KEY = "PEGA_AQUI_TU_LLAVE_DE_TMDB";
+      var SYLUX_TMDB_KEY = "70c73a432118c41f4f46d1e0a9d2c6ab";
       var WA_LINK = "https://wa.me/13055614177?text=Hola%20SYLUX%2C%20quiero%20informaci%C3%B3n%20para%20crear%20una%20p%C3%A1gina%20web%20o%20un%20software%20para%20mi%20negocio.";
       var PROMO_CARD_HTML = '<article class="promo-card">' +
         '<div class="pc-brand">syluxllc.com</div>' +
@@ -1016,6 +1016,12 @@
         tmdbFetch("/configuration", {}).then(function () {
           loadGenres();
           setConnUI(true);
+          var t = document.getElementById("connToggle");
+          if (t) t.style.display = "none";
+          var f = document.getElementById("connForm");
+          if (f) f.style.display = "none";
+          var m = document.getElementById("connMsg");
+          if (m) m.hidden = true;
         }).catch(function () {
           tmdbKey = "";
           isBearer = false;
