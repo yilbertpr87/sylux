@@ -622,6 +622,10 @@
         html { scroll-behavior: auto; }
         .toast { transition: none; }
       }
+      .qcta { display: flex; gap: 10px; flex-wrap: wrap; justify-content: center; }
+      .qbtn { display: inline-block; border-radius: 999px; padding: 11px 22px; font-weight: 800; text-decoration: none; font-size: 1rem; }
+      .qbtn.main { background: var(--gold); color: #221806; }
+      .qbtn.alt { border: 2px solid var(--gold); color: var(--gold); }
     </style>
   </head>
   <body>
@@ -648,6 +652,7 @@
           <button type="button" data-quick="">Ver todo</button>
         </div>
         <p class="hero-status">Una guía de <a href="https://syluxllc.com" target="_blank" rel="noopener"><strong>SYLUX LLC</strong></a> · ¿Necesitas una página web o un software para tu negocio? Entra a <a href="https://syluxllc.com" target="_blank" rel="noopener">syluxllc.com</a></p>
+        <div class="qcta" style="justify-content:flex-start;margin-top:22px"><a class="qbtn main" href="https://forms.gle/ix3vGwLAucrCxzmZ8" target="_blank" rel="noopener">Pedir cotización</a><a class="qbtn alt" href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ3pmmDBdYfJ-uTJKrWV7A3sm_knORwLDyRJS-gKmihy5A1b2NcLY_cGAgbVxmZWjxNlza_vFIFZ" target="_blank" rel="noopener">Agenda tu llamada</a></div>
         <div class="connect">
           <span class="c-status" id="connStatus">Búsqueda en vivo: sin conectar</span>
           <button type="button" class="c-toggle" id="connToggle" aria-expanded="false" aria-controls="connForm">Conectar</button>
@@ -740,6 +745,7 @@
         <div class="pb-main">¿Quieres una página como esta para tu negocio?</div>
         <div class="pb-sub">SYLUX LLC la crea para ti: diseño, dominio, Google y mantenimiento. <span class="pb-go">Contáctanos por WhatsApp →</span></div>
       </a>
+      <div class="wrap" style="margin:26px auto"><div class="qcta"><a class="qbtn main" href="https://forms.gle/ix3vGwLAucrCxzmZ8" target="_blank" rel="noopener">Pedir cotización</a><a class="qbtn alt" href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ3pmmDBdYfJ-uTJKrWV7A3sm_knORwLDyRJS-gKmihy5A1b2NcLY_cGAgbVxmZWjxNlza_vFIFZ" target="_blank" rel="noopener">Agenda tu llamada</a></div></div>
     </main>
 
     <footer>
